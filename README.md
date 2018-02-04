@@ -1,11 +1,12 @@
 # CO225 Project 2 AuctionServer
 
-The users can connect to the server using 'telnet' command and bid on the stocks. The program use threads and sockets to deal with the connections. The GUI shows the details(name, current price, history) of the stocks
+The users can connect to the server using 'nc' command and bid on the stocks. The program use threads and sockets to deal with the connections. The GUI shows the details(name, current price, history) of the stocks
 
 ### HOW TO USE
 
 #### Step 1:
-Run the AuctionServer >$java AuctionServer
+Run the AuctionServer 
+>$java AuctionServer
 
 #### Step 2:
 Use nc to connect to the Server
